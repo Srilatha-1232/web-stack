@@ -1,0 +1,85 @@
+/* element selector */
+
+/* h2 {
+  background-color: black;
+  color: yellow;
+} */
+
+/* p {
+  background-color: black;
+  color: yellow;
+} */
+
+/* element selector list */
+
+/* h2,p {
+  background-color: black;
+  color: yellow;
+}  */
+
+/* universal selector(*) */
+
+/*  * {
+    background-color: black;
+    border: 2px dotted red;
+    color: yellow;
+} */
+
+/* ID Selector */
+
+/* #count3{
+    background-color: red;
+    color: green;
+    border: 2px solid black;
+} */
+
+/* CLASS Selector */
+
+/* .count2{
+    background-color: aquamarine;
+    color: chocolate;
+    border: 2px dashed brown;
+    border-radius: 50px;
+    width: 100px; 
+    height: 100px;
+} */
+
+/* units in css */
+
+/* px , % , vh , vw , rem , em; */
+
+/* Descendendant selector */
+/* li a{
+    color: white;
+    background-color: black;  
+} */
+
+/* b i{
+    color: pink;
+    background-color: yellow;
+} */
+
+/* Direct child */
+
+/* parent > direct child */
+ /* u>i{
+    color: yellow;
+    background-color: black;
+} */
+
+/* 
+h5 {
+    color: aquamarine;
+    background-color: black;
+} */
+
+/* h6 {
+    border: 2px solid black;
+    padding: 10px 15px 20px 25px;
+    padding: 20px;
+    padding-left: 50px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    margin: 30px;
+
+} */
