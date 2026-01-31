@@ -1,0 +1,77 @@
+/* h2{
+    color: purple;
+    background-color: antiquewhite;
+    border: 2px solid red;
+    # padding: 15px; 
+    padding: 0 0 0 15px;
+    margin: 30px; 
+    # margin: 0 0 0 30px;
+} */
+
+
+/* inline level */
+
+/* .css1{
+    color: aqua;
+    background-color: antiquewhite;
+    border: 2px solid red;
+    height: 30px;
+    width: 100px;
+    display: inline;
+}
+.css2{
+    color: blue;
+    background-color: yellow;
+    border: 2px solid green;
+    height: 30px;
+    width: 100px;
+    display: inline;
+} */
+
+/* block level */
+
+/* .css1{
+    color: aqua;
+    background-color: antiquewhite;
+    border: 2px solid red;
+    height: 30px;
+    width: 100px;
+    display: block;
+}
+.css2{
+    color: blue;
+    background-color: yellow;
+    border: 2px solid green;
+    height: 30px;
+    width: 100px;
+    display: block;
+} */
+
+/* inline - block level */
+
+/* .css1{
+    color: aqua;
+    background-color: antiquewhite;
+    border: 2px solid red;
+    height: 30px;
+    width: 100px;
+    display: inline;
+}
+.css2{
+    color: blue;
+    background-color: yellow;
+    border: 2px solid green;
+    height: 30px;
+    width: 200px;
+    display: inline-block;
+} */
+
+.offsetclass {
+    color: white;
+    top: 10px;
+    left: 5px;
+    background-color: black;
+    border: 2px solid red;
+    position: relative;
+     
+}
