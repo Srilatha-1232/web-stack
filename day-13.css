@@ -1,0 +1,72 @@
+/* positions in css */
+
+/* 
+1. static
+  >> it's by default
+  >> hey i just dont wanna fight with anyone else , i will just occupy some empty space
+ */
+
+/* div {
+  position: static;
+  color: aliceblue;
+  background-color: black;
+  border: 1px solid red;
+  top : 15px;
+  left : 10px;
+} */
+
+/* relative :
+    >> its relative to its original postion /static is default position 
+    >> offset (top , left , right , bottom ) 
+    >> the position is relative like in fixed it stays there only wheras in relatibve it moves according to the scroll not position , it moves*/
+
+/* div {
+  position: relative;
+  color: aliceblue;
+  background-color: black;
+  top: 15px;
+  left: 10px;
+} */
+
+/* fixed : it stays in the same position even we scroll to down or any thing the position is fixed
+ */
+/* div {
+  position: fixed;
+  color: aliceblue;
+  background-color: black;
+  border: 2px solid red;
+  top: 15px;
+  left: 10px;
+} */
+
+/* for absolute we should use parent child method so we should call parent first then the child absoulte it used in nav type */
+/* #parent {
+  position: relative;
+  height: 250px;
+  width: 250px;
+  border: 2px dashed black;
+} */
+
+/* absolute 
+   >> this should always have an parent 
+   >> the parent should be of position : relative 
+   >> the offsets values are with respect to the parent and not respect to the entire ui  */
+/* .position {
+  position: absolute;
+  color: aliceblue;
+  background-color: black;
+  border: 2px solid red;
+  top: 0;
+  left: 0;
+} */
+
+/* sticky
+  >> it will be scrolled to certian extent and latter it to get fixed or sticked to the position  */
+.position {
+  position: sticky;
+  color: aliceblue;
+  background-color: black;
+  border: 2px solid red;
+  top: 0;
+  left: 0;
+}
