@@ -1,0 +1,114 @@
+/* hover : by moving mouse pointer on that button the styles get applied and it makes different */
+/* button:hover {
+  color: blueviolet;
+  background-color: bisque;
+  font-family: "Courier New", Courier, monospace;
+} */
+/* active state 
+  >. by onclicking on the button the red stroke will be displayed 
+  > that particular state is getting triggered
+  */
+/* button:active {
+  border: 4px solid red;
+} */
+
+/* focus state : 
+  >> after onclicking the button the styles has been triggered on the button the color and the background color has been applied
+*/
+/* button:focus {
+  color: green;
+  background-color: azure;
+} */
+
+/* anchor visited link */
+
+/* a:link {
+  color: red;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: orange;
+}
+
+span {
+  padding: 8px;
+  margin: 8px;
+  background-color: yellow;
+} */
+
+/* .child1 {
+  background-color: red;
+} */
+
+/* span:first-child {
+  background-color: red;
+}
+
+span:last-child {
+  background-color: violet;
+} */
+
+/* nth child (eg : 3rd child */
+/* 
+span:nth-child(5) {
+  background-color: pink;
+  color: white;
+} */
+
+/* styles for even child number */
+/* span:nth-child(even) {
+  background-color: cadetblue;
+} */
+
+/* psuedo elements ::before */
+/* h1::before {
+  content: "hello ";
+}
+
+h1::after {
+  content: " g'morning";
+} */
+
+.shape {
+  margin: 100px;
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  border-radius: 50%;
+  position: relative;
+}
+
+.shape::before {
+  background-color: blue;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: " ";
+}
+
+/* px , % ,em , rem , vh , vw  */
+.shape::after {
+  background-color: blue;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  content: " ";
+}
+
+/* 
+>> flex box 
+>> animations
+>> git sessions 
+>> static projects (html , css)
+>> ....
+>>  */
