@@ -1,0 +1,58 @@
+/* .parent {
+  background-color: aquamarine;
+  display: flex; */
+/* flex-direction: column; */
+/* gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 1150px;
+} */
+/* flex-start , flex-end , center , space-around , space-between , space-evenly */
+/* 
+.child {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  border: 1px solid yellow;
+  margin: 2px;
+  padding: 20px;
+  align-items: center; */
+/* flex: 5; 
+}*/
+/* 
+.child5 {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  border: 1px solid yellow;
+  margin: 2px;
+  padding: 20px; */
+/* flex: 5; 
+}*/
+/* .demodiv {
+  background-color: purple;
+} */
+
+/* animations :
+ */
+
+button {
+  background-color: bisque;
+  color: blueviolet;
+  padding: 10px;
+  font-size: 20px;
+  margin: 20px;
+  font-family: "Courier New", Courier, monospace;
+
+  /* transition  & its properties*/
+  transition-delay: 250ms;
+  transition-duration: 4000msc;
+  transition-property: background-color;
+  transition-timing-function: ease-out;
+}
+
+button:hover {
+  background-color: aquamarine;
+  cursor: pointer;
+}
