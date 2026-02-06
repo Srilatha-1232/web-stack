@@ -1,0 +1,55 @@
+/* media queries */
+/* .text {
+  font-size: 32px;
+}
+
+@media (max-width: 1024px) {
+  .text {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 600px) {
+  .text {
+    font-size: 18px;
+  }
+} */
+
+/* in max width is nothing but the maximum width the style will not apply it applied to min width */
+
+/* @media only screen and (max-width: 600px) {
+  .text {
+    color: red;
+    background-color: yellow;
+  }
+  .text:after {
+    content: "hi there";
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .text {
+    color: aquamarine;
+    background-color: beige;
+  }
+}
+
+the min width is nothing but the max length the style get applied the min length the style get ignored
+
+@media only screen and (min-width: 400px) {
+  .text {
+    color: aquamarine;
+    background-color: burlywood;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .text {
+    color: red;
+    background-color: blue;
+  }
+} */
+
+/* if both the max width and the min width got 
+collide then it chooses the first written one in the code if the min 
+width is written first then it get applied , if not max width  */
